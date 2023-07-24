@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*pada bagian ini keseluruhan menggunakan margin 0, padding 0 dan box-sizing borde-box*/
+.container{
+    padding:0px;
+    margin: 0px;
+    
+}
+/*pada bagian merupakan style untuk class container ini mengatur padding dan margin dengan 0px*/
+.login{
+    background-color: #92DE8B;
+}
+/*bagian diatas merupakan style untuk class login yaitu mengatur baground clour yang ada di class login dengan kode #92DE8B*/
+.left{
+    position: relative;
+}
+/*bagian diatas merupakan style untuk class left, mengatur position yang ada di class left dengan relative yaitu 
+diposisikan relatif terhadap posisi normalnya*/
+.img{
+    height: 655px;
+    width: 100%;
+    z-index: 1;
+   object-fit: cover;
+}
+/*bagian diatas merupakan style untuk class img yaitu mengatur height 655px, width 100%, z-index 1 ini digunakan untuk mengatur
+mana elemen depan dan belakang digunakan untuk elemen yang tumoang tindih, object-fit cover digunakan untuk menentukan
+gambar/video diubah ukurannya agar sesiao dengan penampungnya*/
+.logo {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 3%;
+    z-index: 2;
+}
+/*bagian diatas merupakan style untuk class logo yaitu mengatur position diposisikan relatif terhadap leluhur terdekat 
+(bukan diposisikan relatif terhadap area pandang, seperti diperbaiki).Namun jika elemen posisi absolut tidak 
+memiliki leluhur yang diposisikan, ia menggunakan badan dokumen, dan bergerak seiring dengan pengguliran halaman.
+text align center, top 50%, left 3%, z-index 2*/
+.form{
+    width: 350px;
+    margin-left: 10%;
+    padding: 10px;
+    margin-top: 10%;
+}
+/*bagian diatas merupakan style untuk class form yaitu mengatur width 350px, margin-left 10%, padding 10px, margin-top 10%*/
+.header h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 35%;
+    color: #000000;
+}
+/*bagian diatas merupakan style untuk class header tepat nya yang ada pada tag h1 yaitu mengatur front-tyle normal, 
+front-weight 500, front-size 40px, line-height 60 px, display flex, align-items center, text-align center, 
+margin-left 35%, color dengan kode #000000*/
+label{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: left;
+    color: #000000;
+    margin-top: 13.37px;
+}
+/*bagian diatas merupakan style untuk tag label dengan front-style normal, front-weight 600, front-size 16px,
+line-height 36px, text-align left, color dengan kode #000000, margin-top 13.37px*/
+input{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    width: 100px;
+} 
+/*bagian diatas merupakan style untuk tag input dengan front-style normal, font-weight 400, front-size 24px, 
+line-height 64px, displey flex, align-items center, text-align center, color #000000, width 100px*/
+#signin{   
+    background: #018071;
+    border-radius: 20px;
+    color: white;
+    display: block;
+    border: none;
+    position: relative;
+    width: 100%;
+    margin-top: 10%;
+    padding: 2%;
+} 
+/*bagian diatas merupakan  style untuk id signin dengan background kode #018071, border-radius 20px, color white,
+display block, border none, position relative, width 100%, margin-top 10%, padding 2%*/
+a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center; 
+    color: #000000;
+    position: relative;
+    text-decoration: none;
+}
+/*bagian diatas merupakan style untuk tag a dengan front-size normal, font-weight 400, font-size 16px, line-height 32px,
+text-align center, color dengan kode #000000, position relative, text-decoration none*/

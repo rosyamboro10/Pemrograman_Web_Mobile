@@ -1,0 +1,51 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> <!--Menghubungkan halaman ke berkas CSS Bootstrap untuk mengatur tata letak dan gaya elemen.-->
+    <link rel="stylesheet" href="./style/style1.css"> <!--Menghubungkan halaman ke berkas CSS kustom "style1.css" untuk menyesuaikan tampilan halaman.-->
+  <body>
+   
+<body>
+    <section class="login"> <!--Elemen <section> dengan kelas "login" digunakan untuk mengelompokkan bagian konten yang terkait dengan form login.-->
+        <div class="container"> <!--Elemen <div> dengan kelas "container" digunakan untuk membatasi lebar konten dan menambahkan ruang di sekitarnya untuk tata letak responsif.-->
+            <div class="row"> <!-- Elemen <div> dengan kelas "row" digunakan untuk membuat baris dalam tata letak grid Bootstrap.-->
+            <div class="col-md-7 left"> <!-- Elemen <div> dengan kelas "col-md-7 left" mendefinisikan kolom dengan lebar 7 kolom pada tata letak grid medium. Di dalamnya terdapat gambar background.-->
+                <img src="./asset/gambar/background.jpg" class="img"> <!--Elemen <img> digunakan untuk menampilkan gambar latar belakang pada kolom sebelumnya.-->
+                
+            </div>
+            <div class="logo"> <!--Elemen <div> dengan kelas "logo" mendefinisikan kolom khusus untuk logo.-->
+            <img src="./asset/gambar/logo.png" class="logo"> <!--Elemen <img> digunakan untuk menampilkan logo pada kolom sebelumnya.-->
+        </div>
+            <div class="col-md-5 form"> <!--Elemen <div> dengan kelas "col-md-5 form" mendefinisikan kolom dengan lebar 5 kolom pada tata letak grid medium. Di dalamnya berisi form login.-->
+                <div class="header"> <!--Elemen <div> dengan kelas "header" mendefinisikan bagian header dari form login.-->
+                    <h1>LOGIN</h1> <!--Elemen heading level 1 digunakan untuk menampilkan teks "LOGIN" pada header.-->
+                </div>
+                
+                    <form id="login"> <!--Elemen <form> dengan atribut id="login" digunakan untuk mengelompokkan elemen-elemen form yang berkaitan dengan form login.-->
+                   
+                    <label for="email" class="form-label">Email</label> <!-- Elemen <label> digunakan untuk memberikan label pada elemen input. Atribut for="email" mengaitkan label dengan elemen input yang memiliki atribut id="email".-->
+                    <input type="email" class="form-control" id="email"><!--Elemen <input> digunakan untuk membuat input field untuk alamat email. Atribut type="email" menunjukkan bahwa ini adalah input untuk alamat email.-->
+                
+                    <label for="password" class="form-label">Password</label><!--Elemen <label> digunakan untuk memberikan label pada elemen input. Atribut for="password" mengaitkan label dengan elemen input yang memiliki atribut id="password".-->
+                    <input type="password" class="form-control" id="password"><!--Elemen <input> digunakan untuk membuat input field untuk password. Atribut type="password" menunjukkan bahwa ini adalah input untuk password yang akan ditampilkan sebagai karakter tersembunyi.-->
+                   
+                   
+                  <button type="submit" id="signin" class="tombol">Login</button><!--Elemen <button> digunakan untuk membuat tombol submit untuk melakukan login. Atribut type="submit" menunjukkan bahwa ini adalah tombol untuk mengirimkan data form. Tombol ini memiliki kelas "tombol" untuk diatur gayanya.-->
+            <a class="signup" href="register.html">Belum Punya Akun?</a><!--Elemen <a> digunakan untuk membuat tautan ke halaman "register.html" dengan teks "Belum Punya Akun?". Tautan ini memiliki kelas "signup" untuk diatur gayanya.-->
+                
+            
+            </form>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> <!--Memuat skrip JavaScript Bootstrap dari CDN untuk menyediakan fungsionalitas Bootstrap pada halaman.-->
+<script src="./script/index .js"></script> <!--Memuat berkas JavaScript kustom "index.js" untuk menyediakan skrip khusus untuk halaman login.-->
+</body>
+</html>
